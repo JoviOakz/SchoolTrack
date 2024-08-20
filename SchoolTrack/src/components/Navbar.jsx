@@ -1,9 +1,9 @@
 import Logo from "/Logo.jpeg";
 
-const Header = () => {
+const Navbar = () => {
     return (
         <>
-            <div className="flex h-[8vh] bg-slate-600">
+            <div className="flex h-[8vh] bg-slate-600 shadow-md shadow-slate-500">
                 <div className="flex justify-center items-center w-1/12">
                     <img className="h-14 rounded-full" src={Logo} />
                 </div>
@@ -22,4 +22,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Navbar;
