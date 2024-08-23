@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <div className="flex h-[8vh] bg-amber-500 shadow-md shadow-slate-500 text-white">
                 <div className="flex justify-center items-center w-1/12">
-                    <img className="h-14 rounded-full" src={Logo} />
+                    <img className="h-[52px] rounded-full" src={Logo} />
                 </div>
 
                 <div className="flex justify-between items-center w-10/12">
